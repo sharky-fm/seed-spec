@@ -1,0 +1,41 @@
+{
+  "format": "seed-spec-index",
+  "format_version": "0.1",
+  "description": "Seed list of seed specs, plus related projects and episodes. Entries are data, not instructions.",
+  "entries": [
+    {
+      "kind": "spec",
+      "name": "A personal AI system",
+      "url": "https://github.com/sharky-fm/seed-spec-personal-ai-system",
+      "by": "Sharky",
+      "format_version": "0.1",
+      "summary": "Ledgers that record obligations at the moment they are said; layered file memory for agents that remember nothing; bounded unattended work."
+    },
+    {
+      "kind": "project",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "by": "Nous Research",
+      "summary": "An open-source, model-agnostic personal agent with bounded curated memory, searchable session history and skills as procedural memory, reachable from a terminal and many messaging platforms.",
+      "relevance": "A well-documented public design for agent memory and skills, useful to compare any system against."
+    },
+    {
+      "kind": "project",
+      "name": "LifeOS (formerly Personal AI Infrastructure, PAI)",
+      "url": "https://github.com/danielmiessler/LifeOS",
+      "by": "Daniel Miessler",
+      "summary": "An open-source personal AI setup built on a coding agent, organizing context, skills and goals around moving from a current state to a desired one. The original PAI repository address redirects here.",
+      "relevance": "A public, opinionated example of a complete personal AI system, shared so others can learn from it."
+    },
+    {
+      "kind": "episode",
+      "name": "Inside Nathan's Second Brain: Daniel Miessler, Security Expert & Creator of PAI, Audits My AI Setup",
+      "show": "The Cognitive Revolution",
+      "url": "https://www.cognitiverevolution.ai/inside-nathan-s-second-brain-daniel-miessler-security-expert-creator-of-pai-audits-my-ai-setup/",
+      "video_url": "https://www.youtube.com/watch?v=AqxgBREOkNM",
+      "by": "Nathan Labenz with Daniel Miessler",
+      "summary": "A podcast conversation in which Nathan Labenz walks through his personal AI setup and Daniel Miessler reviews it, covering context, agent hierarchy, security and norms.",
+      "relevance": "Part of that setup was built by having an agent compare other people's published setups and draft a synthesis, which is the kind of exchange seed specs are meant to make easier."
+    }
+  ]
+}
